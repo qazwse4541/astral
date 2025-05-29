@@ -13,23 +13,11 @@ class ServerCz {
     if (await _isar.serverMods.count() == 0) {
       await addServer(
         ServerMod(
-          name: "Meko Game服务器1号【上海】",
+          name: "快乐服务器",
           url: "124.71.134.95:11010",
           enable: true,
           tcp: true,
-          udp: true,
-          ws: false,
-          wss: false,
-          quic: false,
-          wg: false,
-        ),
-      );
-        ServerMod(
-          name: "Meko Game服务器2号【四川】",
-          url: "me.youddns.site:11010",
-          enable: true,
-          tcp: true,
-          udp: true,
+          udp: false,
           ws: false,
           wss: false,
           quic: false,
