@@ -983,10 +983,10 @@ class _SettingsPageState extends State<SettingsPage> {
               const ListTile(leading: Icon(Icons.info), title: Text('关于')),
               ListTile(
                 leading: const Icon(Icons.group),
-                title: const Text('官方QQ群 808169040'),
+                title: const Text('官方QQ群 1025711103'),
                 subtitle: const Text('点击复制群号'),
                 onTap: () async {
-                  const qqGroup = '808169040'; // 替换为实际QQ群号
+                  const qqGroup = '1025711103'; // 替换为实际QQ群号
                   await Clipboard.setData(const ClipboardData(text: qqGroup));
                   ScaffoldMessenger.of(
                     context,
